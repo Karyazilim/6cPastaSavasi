@@ -1,0 +1,69 @@
+<html><head>
+<meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap" rel="stylesheet"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<style type="text/tailwindcss">
+      body {
+        font-family: 'Press Start 2P', cursive;
+      }
+      .pixelated {
+        image-rendering: pixelated;
+      }
+      .btn-pixel {
+        position: relative;
+        display: inline-block;
+        padding: 12px 24px;
+        color: white;
+        text-shadow: 2px 2px #000000;
+        text-transform: uppercase;
+        border: 4px solid #000;
+        box-shadow: 4px 4px 0 #000;
+        transition: all 0.1s ease-in-out;
+      }
+      .btn-pixel:hover {
+        transform: translate(2px, 2px);
+        box-shadow: 2px 2px 0 #000;
+      }
+      .btn-pixel:active {
+        transform: translate(4px, 4px);
+        box-shadow: 0 0 0 #000;
+      }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-[#5C946E]">
+<div class="relative flex h-auto min-h-screen w-full flex-col justify-between group/design-root overflow-hidden">
+<div class="flex flex-col items-center justify-center flex-grow p-4">
+<div class="text-center mb-8">
+<h1 class="text-5xl text-white drop-shadow-[4px_4px_0_rgba(0,0,0,1)] mb-2">6C Sınıfı</h1>
+<h2 class="text-3xl text-[#FFD700] drop-shadow-[3px_3px_0_rgba(0,0,0,1)]">Pasta Savaşı</h2>
+</div>
+<div class="w-full max-w-sm border-4 border-black bg-white p-2 mb-8 pixelated" style="box-shadow: 8px 8px 0px rgba(0,0,0,1);">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAyrFKCHP_TK7bSukRcW-OhTwOLYxU1BuNbnh4P_0FDFJirYSo71i74VQmH5t4Kuk0q-tQ8oIs0sZazHvAbjeQJwDCdGMs8ItSlwqHBwvZzU4eaR8Y9TtUl3YUHmS05eYybd2XA-1U2lvQPeoNicFkyXM1lRicnCYpWPjWxyD8FmaqY44DKUdkF5LyNllRnD0dqmz-czMeQBA8v6RQbN1zW7k5PqX0dMlDtsTyg1TBJSAINEftkUlW8PE0mR3GDzD23JtuA0PTY98j0");'></div>
+</div>
+<div class="flex flex-col gap-4 w-full max-w-xs">
+<button class="btn-pixel bg-[#F48D25]">
+            Oyna
+          </button>
+<button class="btn-pixel bg-[#4A7A8C]">
+            Ayarlar
+          </button>
+<button class="btn-pixel bg-[#A84A4A]">
+            Çıkış
+          </button>
+</div>
+</div>
+<div class="absolute bottom-4 right-4 text-white text-xs opacity-50">
+        v1.0.0
+      </div>
+</div>
+
+</body></html>
